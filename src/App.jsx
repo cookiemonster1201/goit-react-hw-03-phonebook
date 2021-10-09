@@ -74,7 +74,6 @@ class App extends Component {
   getFilteredContacts = () => {
     const { contacts, filter } = this.state;
     const normalizedFilterValue = filter.toLowerCase();
-    console.log(contacts.length);
     return contacts.length > 0
       ? contacts.filter(contact =>
           contact.name.toLowerCase().includes(normalizedFilterValue),
