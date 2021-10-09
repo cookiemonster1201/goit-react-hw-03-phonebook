@@ -1,5 +1,14 @@
 @import 'modern-normalize/modern-normalize.css';
 
+body {
+  background: rgb(255, 169, 124);
+  background: radial-gradient(
+    circle,
+    rgba(255, 169, 124, 1) 0%,
+    rgba(70, 154, 90, 1) 100%
+  );
+}
+
 img {
   display: block;
   max-width: 100%;

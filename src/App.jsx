@@ -18,6 +18,7 @@ const H2 = styled.h2`
   margin-bottom: 20px;
   text-align: center;
   font-size: 40px;
+  text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15);
 `;
 
 const Div = styled.div`

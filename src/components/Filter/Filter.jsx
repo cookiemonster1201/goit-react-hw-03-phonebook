@@ -14,7 +14,7 @@ const Input = styled.input`
   height: 30px;
   margin-left: 30px;
   padding: 20px 10px;
-  background: #bebebe;
+  background: #e4e4e4;
   color: #036103;
 `;
 function Filter({ value, onChange }) {

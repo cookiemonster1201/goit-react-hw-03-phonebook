@@ -12,11 +12,13 @@ const Form = styled.form`
   margin-bottom: 40px;
   padding: 30px 90px;
   border: 2px solid grey;
+  border-radius: 30px;
   background: wheat;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 `;
 
 const GreenButton = styled(Button)`
-  background-color: #278a27;
+  background-color: #113f11;
   margin: 0 auto;
   margin-top: 10px;
   width: 150px;

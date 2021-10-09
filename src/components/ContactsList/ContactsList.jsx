@@ -7,7 +7,7 @@ import { ContactsListItem } from 'components/ContactsListItem';
 const Ul = styled.ul`
   list-style: none;
   text-align: center;
-  color: tomato;
+  color: #722317;
   font-weight: bold;
 `;
 
